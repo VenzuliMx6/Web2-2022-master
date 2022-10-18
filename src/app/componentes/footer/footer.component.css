@@ -1,45 +1,8 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-
-.wrapper{
-  background: url(https://wallpapercave.com/wp/wp3519770.jpg);
-  background-size: cover;
-  height: 100vh;
-}
-
-.wrapper .center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: sans-serif;
-}
-
-.center h1{
-  color: white;
-  font-size: 70px;
-  font-weight: bold;
-  width: 1200px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.mat-raised-button{
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  margin-top: 60px;
-  width: 150px;
-  height: 46px;
-  text-align: center center;
-  padding: 5px;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
