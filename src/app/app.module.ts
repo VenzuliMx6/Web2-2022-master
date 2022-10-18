@@ -19,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import { MaterialModule } from '../../material.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ReactiveFormsModule } from '@angular/forms';
+import { InicioComponent } from './componentes/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     P3Component,
     P4Component,
     P5Component,
-    PRMenuComponent
+    PRMenuComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { P1Component } from './componentes/p1/p1.component';
 import { P2Component } from './componentes/p2/p2.component';
 import { P3Component } from './componentes/p3/p3.component';
 import { P4Component } from './componentes/p4/p4.component';
+import { InicioComponent } from './componentes/inicio/inicio.component';
 
 const routes: Routes = [
   {
@@ -17,7 +18,11 @@ const routes: Routes = [
   },
   {
     path:"login",component:P4Component
-  }
+  },
+  {
+    path:"inicio",component:InicioComponent
+  },
+
 ];
 
 @NgModule({
