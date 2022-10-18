@@ -1,0 +1,49 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 220px;
+  background-color: #134074;
+}
+
+.sidenav .mat-toolbar {
+  background: #134074;
+  color: #b6ffff;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: #b6ffff;
+  background-color: #134074;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+  text-align: end;
+  font-size: 16px;
+  align-self: end;
+}
+
+.links {
+  font-size: 15px;
+  color: #b6ffff;
+}
+
+.mat-sidenav-container {
+  background: rgba(0, 0, 0, 0.7) center/cover
+  url("https://img.freepik.com/premium-vector/cute-cat-operating-laptop-cartoon-vector-illustration-animal-technology-concept-isolated-flat-cartoon-style_138676-1870.jpg")
+  repeat;
+  background-size: 175px 175px;
+  background-blend-mode: darken;
+}
+
+.boton-menu {
+  font-family: 'Gemunu Libre', sans-serif;
+  color: #b6ffff;
+  font-size: 15px;
+}
+
+
